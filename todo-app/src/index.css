@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+}
+
+.container {
+  width: 90%;
+  padding: 2rem 1rem;
+}
+
+header {
+  height: 75px;
+  margin: auto;
+  background: #1f150c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px #e1dcc94c;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-family: "Bangers";
+  color: #e1dcc9;
+  font-size: 2.5em;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.form-section {
+  background-color: #e1dcc9;
+  color: #1f150c;
+  margin-bottom: 2rem;
+}
+
+.form-section form {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-section input {
+  background-color: transparent;
+  color: #1f150c;
+  height: 40px;
+  font-size: 1.1rem;
+  border: none;
+  border: 1px solid #000000;
+  padding: 0 1rem;
+  border-radius: 3.5px;
+}
+
+.form-section input::placeholder {
+  color: #1f150c;
+}
+
+.form-section input:focus {
+  outline: none;
+  border: 2px solid #000000;
+}
+
+.form-section form button {
+  background-color: #1f150c;
+  color: #e1dcc9;
+  font-size: 1.1rem;
+  height: 40px;
+  padding: 0 2rem;
+  border: 1px solid #000000;
+  border-radius: 3.5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.form-section form button:hover {
+  transform: translateY(-2px);
+}
+
+.task-section {
+  background-color: #1f150c;
+  color: #1f150c;
+  font-family: "Dancing Script";
+}
+
+.task-section h2 {
+  text-align: center;
+  color: #e1dcc9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #e1dcc9;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3.5px;
+  font-weight: 900;
+}
+
+li span {
+  background-color: rgba(255, 0, 0, 0.285);
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+li span:hover {
+  background-color: rgba(255, 0, 0, 0.543);
+}
+
+.alert {
+  text-align: center;
+  padding: 1rem 0 0;
+  font-family: "Dancing Script";
+  font-size: 1.5rem;
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
