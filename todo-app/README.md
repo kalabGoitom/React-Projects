@@ -1,34 +1,23 @@
 # Todo App
 
-A simple and responsive Todo application built with React that allows users to add and delete tasks. This project was created to practice React fundamentals such as components, state management, props, event handling, and hooks.
+A simple and responsive todo application built with React and Vite. It lets users create, edit, delete, and mark tasks as complete, with tasks saved in the browser using localStorage.
 
 ## Features
 
 - Add new tasks
-- Delete existing tasks
-- Success and validation alerts
-- Dynamic task rendering
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or incomplete
+- Persist tasks across page refreshes
 - Clean and responsive user interface
 
-## Technologies Used
+## Tech Stack
 
 - React
-- JavaScript (ES6+)
-- HTML5
-- CSS3
 - Vite
-
-## Concepts Practiced
-
-- Functional Components
-- Props
-- useState Hook
-- useEffect Hook
-- Conditional Rendering
-- Event Handling
-- List Rendering with `map()`
-- State Updates
-- Component Communication
+- JavaScript
+- CSS
+- Font Awesome
 
 ## Project Structure
 
@@ -42,47 +31,30 @@ src/
 └── index.css
 ```
 
-## Preview
-
-![Todo App Screenshot](./screenshot.png)
-
 ## Getting Started
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/react-learning-journey.git
-```
-
-### Navigate to the Project Folder
-
-```bash
-cd todo-app
-```
-
-### Install Dependencies
+1. Clone the repository
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Start the Development Server
+3. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-## Future Improvements
+4. Open the local URL shown in the terminal.
 
-- Edit tasks
-- Mark tasks as completed
-- Store tasks in localStorage
-- Add task filters (All, Active, Completed)
-- Improve UI/UX
-- Add dark mode
+## Available Scripts
 
-## Author
+- `npm run dev` - start the development server
+- `npm run build` - build the app for production
+- `npm run preview` - preview the production build
+- `npm run lint` - run ESLint
 
-**Kalab Goitom**
+## Notes
 
-Computer Science and Engineering Student
+This project is a beginner-friendly React app designed to practice state management, component communication, and form handling.

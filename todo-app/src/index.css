@@ -106,7 +106,6 @@ li {
   background-color: #e1dcc9;
   padding: 1rem;
   margin: 1rem;
-  font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,15 +114,10 @@ li {
 }
 
 li span {
-  background-color: rgba(255, 0, 0, 0.285);
   padding: 0.5rem;
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.3s linear;
-}
-
-li span:hover {
-  background-color: rgba(255, 0, 0, 0.543);
 }
 
 .alert {
@@ -139,4 +133,36 @@ p.success {
 
 p.danger {
   color: red;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.delete-btn {
+  background-color: rgba(255, 0, 0, 0.285);
+}
+
+.delete-btn:hover {
+  background-color: rgba(255, 0, 0, 0.543);
+}
+
+.edit-btn {
+  background-color: rgba(4, 250, 0, 0.285);
+}
+
+.edit-btn:hover {
+  background-color: rgba(2, 101, 19, 0.543);
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.5rem;
 }
